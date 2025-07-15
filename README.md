@@ -129,3 +129,13 @@ With this setup you can now access your app with `http://{hostname}:{NGINX_PORT}
     ```bash
     docker compose exec -it php bash
     ```
+
+After all of that you might want to unplug this repo (because you're just using it as a template, you don't want to push or make changes to this codebase). To do that, you should run
+```bash
+git remote remove origin
+```
+
+And add your own origin (https://github.com/<username>/<repo> or git@github.com:<username>/<repo>)
+```bash
+git remote add origin <origin>
+```
