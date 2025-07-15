@@ -139,3 +139,5 @@ And add your own origin (https://github.com/<username>/<repo> or git@github.com:
 ```bash
 git remote add origin <origin>
 ```
+
+If you encounter any issues or have better recommendations feel free to open issue. I'm open to contributions
