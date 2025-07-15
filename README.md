@@ -88,7 +88,7 @@ The `FRONTEND_PORT` and `BACKEND_PORT` are defined in your `.env` file.
 To start the application in production mode, run the following command:
 
 ```bash
-docker up -d --build
+docker compose up -d --build
 ```
 
 The `-d` flag runs the containers in detached mode (in the background).
