@@ -57,11 +57,7 @@ After selecting an environment, the script will copy the necessary configuration
 
 ### 3. Create a `.env` File
 
-The `docker-compose.yml` file uses environment variables from a `.env` file. You'll need to create this file in the root of the project.
-
-```bash
-cp .env.example .env
-```
+The `docker-compose.yml` file uses environment variables from a `.env` file. Once you choose a development mode with `php init` command it will create an appropriate `.env` file with required variables
 
 Now, open the `.env` file and customize the variables as needed.
 
