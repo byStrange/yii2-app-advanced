@@ -31,7 +31,7 @@ services:
       - POSTGRES_USER=site_ao
       - POSTGRES_PASSWORD=pwd
     volumes:
-      - pg_data:/var/lib/postgresql/data
+      - pg_dev:/var/lib/postgresql/data
 
   adminer:
     image: adminer
@@ -40,4 +40,4 @@ services:
       - 8080:8080
 
 volumes:
-  pg_data:
+  pg_dev:
